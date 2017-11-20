@@ -32,7 +32,7 @@ lstm_hidden = 480
 n_i = hidden_out
 n_h = lstm_hidden
 n_o = lstm_hidden
-n_y = C_NO
+n_y = Class_NO
 #Here is the setup of the hyper-parameters for RNN
 
 
