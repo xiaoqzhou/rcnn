@@ -79,7 +79,7 @@ class prepareData(object):
     self.train_session_num = len(self.train_session)
     self.train_num = train_len
 
-  def Reading_testdata(self):  # Loading the training QA data
+  def Reading_testdata(self):  # Loading the test QA data
     j = 0
     with open(self.test_file,'r') as fin:
       for line in fin:
